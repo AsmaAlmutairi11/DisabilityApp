@@ -11,7 +11,7 @@ import SwiftUI
 struct DisabilityAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InstantCardView()
         }
     }
 }

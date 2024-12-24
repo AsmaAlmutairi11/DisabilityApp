@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		72025F802D1A36B6007FEFD2 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72025F7F2D1A36B6007FEFD2 /* Splash.swift */; };
+		72025F952D1A37CC007FEFD2 /* ListCads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72025F942D1A37B6007FEFD2 /* ListCads.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		72025F392D1A3653007FEFD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		72025F282D1A3652007FEFD2 /* DisabilityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisabilityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72025F382D1A3653007FEFD2 /* DisabilityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisabilityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72025F422D1A3653007FEFD2 /* DisabilityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisabilityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72025F7F2D1A36B6007FEFD2 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		72025F942D1A37B6007FEFD2 /* ListCads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCads.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +50,21 @@
 		72025F452D1A3653007FEFD2 /* DisabilityAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DisabilityAppUITests;
+			sourceTree = "<group>";
+		};
+		72025F812D1A36C9007FEFD2 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72025F822D1A36D5007FEFD2 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		72025F832D1A36E6007FEFD2 /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +97,11 @@
 		72025F1F2D1A3652007FEFD2 = {
 			isa = PBXGroup;
 			children = (
+				72025F942D1A37B6007FEFD2 /* ListCads.swift */,
+				72025F7F2D1A36B6007FEFD2 /* Splash.swift */,
+				72025F832D1A36E6007FEFD2 /* View */,
+				72025F822D1A36D5007FEFD2 /* ViewModel */,
+				72025F812D1A36C9007FEFD2 /* Model */,
 				72025F2A2D1A3652007FEFD2 /* DisabilityApp */,
 				72025F3B2D1A3653007FEFD2 /* DisabilityAppTests */,
 				72025F452D1A3653007FEFD2 /* DisabilityAppUITests */,
@@ -109,6 +136,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				72025F2A2D1A3652007FEFD2 /* DisabilityApp */,
+				72025F812D1A36C9007FEFD2 /* Model */,
+				72025F822D1A36D5007FEFD2 /* ViewModel */,
+				72025F832D1A36E6007FEFD2 /* View */,
 			);
 			name = DisabilityApp;
 			packageProductDependencies = (
@@ -236,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72025F802D1A36B6007FEFD2 /* Splash.swift in Sources */,
+				72025F952D1A37CC007FEFD2 /* ListCads.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

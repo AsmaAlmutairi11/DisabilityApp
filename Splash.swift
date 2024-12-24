@@ -1,15 +1,37 @@
 //
 //  Splash.swift
-//  DisabilityApp
+//  card
 //
-//  Created by Asma Mohammed on 23/06/1446 AH.
+//  Created by Asma Mohammed on 18/06/1446 AH.
 //
 
 import SwiftUI
 
 struct Splash: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // خلفية الأومبريه تحت كل شيء
+            LinearGradient(gradient: .init(colors: [.splashScreen, .background1]), startPoint: .center, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Spacer()
+                
+                // الصورة
+                Image("AppLogo")
+                    .resizable()
+                    .scaledToFit()
+                
+                // النص
+                Text("")
+                    .bold()
+                    .font(.title)
+                    .foregroundColor(.gray)
+                    .padding(.top, 20)
+                
+                Spacer()
+            }
+        }
     }
 }
 

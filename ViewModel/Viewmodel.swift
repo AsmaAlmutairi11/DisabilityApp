@@ -5,6 +5,13 @@
 //  Created by Asma Mohammed on 18/06/1446 AH.
 //
 
+//
+//  Viewmodel.swift
+//  card
+//
+//  Created by Asma Mohammed on 18/06/1446 AH.
+//
+
 import Foundation
 import SwiftUI
 import AVFoundation
@@ -29,6 +36,7 @@ class Viewmodel: ObservableObject {
 
     // بيانات الإدخال
     @Published var isActive = false
+    
     @Published var inputText: String = ""
     @State private var selectedCategory = "middle"
     

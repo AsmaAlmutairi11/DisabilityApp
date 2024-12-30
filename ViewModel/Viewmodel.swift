@@ -5,16 +5,11 @@
 //  Created by Asma Mohammed on 18/06/1446 AH.
 //
 
-//
-//  Viewmodel.swift
-//  card
-//
-//  Created by Asma Mohammed on 18/06/1446 AH.
-//
 
-import Foundation
 import SwiftUI
 import AVFoundation
+import SwiftData
+
 
 // ViewModel for Instant Card
 class Viewmodel: ObservableObject {
@@ -78,6 +73,7 @@ class Viewmodel: ObservableObject {
     func deleteJCards(at index: Int) {
         Cards.remove(at: index)
     }
+
 
 }
 // Circular Button for UI
